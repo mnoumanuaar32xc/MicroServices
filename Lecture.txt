@@ -1,2 +1,13 @@
 Url 
 https://www.youtube.com/watch?v=B85-i1_uVaA&list=PL18HZjtdIA4AKQAp0DpX3xlGkCfPkGtCx&index=2
+
+ProductService:-
+https://localhost:7214/swagger/index.html
+
+
+Api Gateway:-
+http://localhost:5206/
+
+How to Api Gatway
+
+http://localhost:5206/gateway/Product
