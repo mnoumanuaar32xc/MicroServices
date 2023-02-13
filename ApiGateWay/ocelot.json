@@ -1,24 +1,4 @@
-//{
-
-//  "Routes": [
-//    {
-//      "DownstreamPathTemplate": "/api/Product",
-//      "DownstreamScheme": "http",
-//      "DownstreamHttpMethod": [ "GET" ],
-//      "DownstreamHostAndPorts": [
-//        {
-//          "Host": "localhost",
-//          "Port": 7241
-//        }
-//      ],
-//      "UpstreamPathTemplate": "/Product",
-//      "UpstreamHttpMethod": [ "Get" ]
-//    }
-//  ]
-
-//}
-
-{
+ {
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5206"
   },
@@ -35,7 +15,5 @@
         }
       ]
     },
-    
-     
   ]
 }
