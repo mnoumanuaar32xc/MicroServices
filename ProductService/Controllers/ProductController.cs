@@ -15,7 +15,6 @@ namespace ProductService.Controllers
         {
             _context = context;
 
-
         }
 
         // GET: api/<ProductController>
