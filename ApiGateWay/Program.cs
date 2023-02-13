@@ -8,7 +8,7 @@ builder.Services.AddOcelot();
 var app = builder.Build();
 
 app.UseHttpsRedirection();
-app.UseOcelot().Wait();
+app.UseOcelot();
 
 //app.MapGet("/", () => "Hello World!");
 
