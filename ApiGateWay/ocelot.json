@@ -1,4 +1,4 @@
- {
+{
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5206"
   },
@@ -17,3 +17,4 @@
     },
   ]
 }
+
