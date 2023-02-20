@@ -5,3 +5,24 @@ MicroServices are composed of small, independent services which communicate with
 
 
 The **Ocelot** **Gateway** is an open source API Gateway developed by Steeltoe. It is built on top of the ASP.NET Core framework and is designed to help developers quickly create secure, reliable and scalable API gateways for their applications. Ocelot Gateway provides a number of features including rate limiting, authentication and authorization, logging, caching, and metrics. It also provides support for various cloud providers, including Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform.
+
+
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5206"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/product",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7214
+        }
+      ]
+    },
+  ]
+}
