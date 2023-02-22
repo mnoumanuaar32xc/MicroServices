@@ -1,6 +1,7 @@
 # MicroServices
 **MicroServices** is a type of software architecture that is composed of loosely coupled services that are independently deployable and manageable. Each service is responsible for a single, specific purpose and works together with other services to fulfill a larger business goal. It is designed to allow for scalability and flexibility, allowing businesses to quickly adopt new technologies and respond to changing customer needs. MicroServices are typically deployed in containers, such as Docker, making them portable and easy to scale.
 
+In a microservices architecture, services are fine-grained and the protocols are lightweight. The benefit of decomposing an application into different smaller services is that it improves modularity and makes the application easier to understand, develop, and test. It also parallelizes development, which allows for separate teams to develop, deploy, and scale their respective services independently.
 MicroServices are composed of small, independent services which communicate with each other to accomplish a task. This architecture allows for creating complex applications that are resilient, maintainable, and scalable. It is a popular approach for developing cloud-native applications, and can be used in combination with other approaches such as DevOps and continuous delivery
 
 
